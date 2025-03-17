@@ -4,7 +4,7 @@
 using namespace std;
 
 int main()
-{//deklarasi variable
+{
     int n;
     int perulanganWhile = 0;
     int perulanganDo = 0;
@@ -41,3 +41,7 @@ int main()
         n = rand() % 10;
         perulanganWhile++;
     }
+    cout << "Jumlah Perulangan = " << perulanganWhile << endl;
+    cout << "Nilai n terakhir = " << n << endl;
+}
+
