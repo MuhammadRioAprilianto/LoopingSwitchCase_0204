@@ -28,7 +28,7 @@ int main()
         cout << "2. Cek predikat kelulusan" << endl;
         cout << "3. Keluar" << endl;
 
-        cout << "masukkan pilihan (1\2\3) = " << endl;
+        cout << "masukkan pilihan (1/2/3) : ";
         cin >> pilihan;
         switch (pilihan)
         {
